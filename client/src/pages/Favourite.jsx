@@ -61,7 +61,7 @@ const Favourite = () => {
 
   useEffect(() => {
     getProducts();
-  }, []);
+  });
   return (
     <Container>
       <Section>

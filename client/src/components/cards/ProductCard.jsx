@@ -215,7 +215,7 @@ const ProductCard = ({ product }) => {
 
   useEffect(() => {
     checkFavourite();
-  }, []);
+  }, );
   return (
     <Card>
       <Top>

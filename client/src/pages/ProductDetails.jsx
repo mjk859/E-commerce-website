@@ -222,7 +222,7 @@ const ProductDetails = () => {
   useEffect(() => {
     getProduct();
     checkFavourite();
-  }, []);
+  });
 
   return (
     <Container>
