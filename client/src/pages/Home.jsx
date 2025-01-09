@@ -87,7 +87,7 @@ const Home = () => {
       <Section>
         <Title center>Our Bestseller</Title>
         <CardWrapper>
-          {products.map((product) => (
+          {loading ? <p>Loading...</p> : products.map(product => (
             <ProductCard product={product} />
           ))}
         </CardWrapper>

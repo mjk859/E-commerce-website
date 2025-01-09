@@ -96,7 +96,7 @@ const SignIn = () => {
   return (
     <Container>
       <div>
-        <Title>Welcome to ShopSphere 👋</Title>
+        <Title>Welcome to ShopSphere <span role="img" aria-label="waving hand">👋</span></Title>
         <Span>Please login with your details here</Span>
       </div>
       <div style={{ display: "flex", gap: "20px", flexDirection: "column" }}>
